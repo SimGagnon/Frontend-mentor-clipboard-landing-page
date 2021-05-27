@@ -131,4 +131,29 @@ a, a:visited, a:hover {
 .access__img img {
   width: 100%;
 }
+
+.supercharge {
+  text-align: center;
+  padding: 0 2rem 8.1875rem 2rem;
+}
+
+.supercharge__header {
+  margin-bottom: 5.625rem;
+}
+
+.supercharge__header h2 {
+  margin-bottom: 0.6875rem;
+}
+
+.supercharge__body div:not(:last-child) {
+  margin-bottom: 3.5rem;
+}
+
+.supercharge__body img {
+  margin-bottom: 2.5rem;
+}
+
+.supercharge__body h3 {
+  margin-bottom: 1.125rem;
+}
 /*# sourceMappingURL=style.css.map */

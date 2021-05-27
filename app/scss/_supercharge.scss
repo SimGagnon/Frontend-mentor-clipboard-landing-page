@@ -1,0 +1,28 @@
+.supercharge {
+    text-align: center;
+    padding: 0 2rem 8.1875rem 2rem;
+
+    &__header {
+        margin-bottom: 5.625rem;
+
+        h2 {
+            margin-bottom: 0.6875rem;
+        }
+
+    }
+
+    &__body {
+
+        div:not(:last-child) {
+            margin-bottom: 3.5rem;
+        }
+
+        img {
+            margin-bottom: 2.5rem;
+        }
+
+        h3 {
+            margin-bottom: 1.125rem;
+        }
+    }
+}
