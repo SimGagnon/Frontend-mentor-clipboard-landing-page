@@ -156,4 +156,17 @@ a, a:visited, a:hover {
 .supercharge__body h3 {
   margin-bottom: 1.125rem;
 }
+
+.sponsors {
+  padding: 0 7.375rem 10.625rem 7.375rem;
+  text-align: center;
+}
+
+.sponsors img {
+  width: 100%;
+}
+
+.sponsors img:not(:last-child) {
+  margin-bottom: 3.5rem;
+}
 /*# sourceMappingURL=style.css.map */

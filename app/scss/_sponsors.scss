@@ -1,0 +1,12 @@
+.sponsors {
+    padding: 0 7.375rem 10.625rem 7.375rem;
+    text-align: center;
+
+    img {
+        width: 100%;
+        
+        &:not(:last-child) {
+            margin-bottom: 3.5rem;
+        }
+    }
+}
