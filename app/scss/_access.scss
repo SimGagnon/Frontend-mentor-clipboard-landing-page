@@ -1,0 +1,23 @@
+.access {
+    text-align: center;
+    padding: 0 2rem 8.125rem 2rem;
+
+    &__text {
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 4rem;
+        }
+
+    }
+
+    &__img {
+        
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -114,4 +114,21 @@ a, a:visited, a:hover {
   width: 100%;
   margin-bottom: 3.5rem;
 }
+
+.access {
+  text-align: center;
+  padding: 0 2rem 8.125rem 2rem;
+}
+
+.access__text h2 {
+  margin-bottom: 1rem;
+}
+
+.access__text p {
+  margin-bottom: 4rem;
+}
+
+.access__img img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
