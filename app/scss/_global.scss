@@ -5,6 +5,7 @@ html {
 
 *, *::before, *::after {
     box-sizing: inherit;
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5 {
@@ -19,6 +20,14 @@ body {
     font-size: 18px;
 }
 
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
 p {
     color: $GrayishBlue;
     font-size: 1rem;
@@ -29,6 +38,7 @@ p {
 
 a, a:visited, a:hover {
     text-decoration: none;
+    color: inherit;
 }
 
 .btn {

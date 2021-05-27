@@ -1,6 +1,38 @@
 .footer {
-
+    background: hsla(201, 11%, 66%, 0.1%);
     text-align: center;
     padding: 3.25rem 6.6875rem 3.1875rem 6.6875rem;
+
+    &__links {
+        margin-bottom: 3.140625rem;
+
+        a {
+            display: block;
+            line-height: 30px;
+
+            &:hover {
+                color: $StrongCyan;
+            }
+
+            &:not(:last-child){
+                margin-bottom: 1.25rem;
+            }
+        }
+    }
+
+    &__socials {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        width: 3.4375rem;
+        height: 3.4375rem;
+        margin: 0 auto 2.5rem;
+
+        img {
+            width: 100%;
+        }
+    }
 
 }

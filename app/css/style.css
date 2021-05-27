@@ -5,6 +5,7 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -19,6 +20,14 @@ body {
   font-size: 18px;
 }
 
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
 p {
   color: #9fabb2;
   font-size: 1rem;
@@ -29,6 +38,7 @@ p {
 
 a, a:visited, a:hover {
   text-decoration: none;
+  color: inherit;
 }
 
 .btn {
@@ -204,7 +214,40 @@ a, a:visited, a:hover {
 }
 
 .footer {
+  background: rgba(159, 171, 178, 0.1);
   text-align: center;
   padding: 3.25rem 6.6875rem 3.1875rem 6.6875rem;
+}
+
+.footer__links {
+  margin-bottom: 3.140625rem;
+}
+
+.footer__links a {
+  display: block;
+  line-height: 30px;
+}
+
+.footer__links a:hover {
+  color: #26baa4;
+}
+
+.footer__links a:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 3.4375rem;
+  height: 3.4375rem;
+  margin: 0 auto 2.5rem;
+}
+
+.footer__logo img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
