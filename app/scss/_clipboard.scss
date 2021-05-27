@@ -14,9 +14,8 @@
         }
     }
 
-
     &__buttons {
-
+        
         .btn:first-child {
             margin-bottom: 1.5rem;
             @include button ($StrongCyan,hsla(160, 64%, 72%, 0.503));
