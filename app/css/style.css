@@ -169,4 +169,37 @@ a, a:visited, a:hover {
 .sponsors img:not(:last-child) {
   margin-bottom: 3.5rem;
 }
+
+.clipboard {
+  padding: 0 2rem 13.875rem 2rem;
+  text-align: center;
+}
+
+.clipboard__text h2 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+.clipboard__text p {
+  margin-bottom: 2.875rem;
+}
+
+.clipboard__buttons .btn:first-child {
+  margin-bottom: 1.5rem;
+  background: #26baa4;
+  box-shadow: 0px 10px 20px rgba(138, 229, 199, 0.503), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.clipboard__buttons .btn:first-child:hover {
+  opacity: 0.75;
+}
+
+.clipboard__buttons .btn:last-child {
+  background: #6173ff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.099), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.clipboard__buttons .btn:last-child:hover {
+  opacity: 0.75;
+}
 /*# sourceMappingURL=style.css.map */
