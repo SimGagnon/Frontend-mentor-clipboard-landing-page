@@ -3,4 +3,40 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    padding: 7.6875rem 2rem 10rem 2rem;
+    
+    &__text {
+        
+        .logo {
+            margin-bottom: 4rem;
+        }
+
+        h1 {
+            margin-bottom: 1rem;
+            color: $DarkGrayishBlue;
+            letter-spacing: -0.52px;
+            font-size: 2rem;
+        }
+
+        p {
+            margin-bottom: 3rem;
+            color: $GrayishBlue;
+            font-size: 1rem;
+            line-height: 26px;
+            letter-spacing: 0.12px;
+        }
+    }
+
+    &__buttons {
+
+        .btn:first-child {
+            margin-bottom: 1.5rem;
+            @include button ($StrongCyan,hsla(160, 64%, 72%, 0.503));
+        }
+
+        .btn:last-child {
+            @include button ($LightBlue,hsla(0, 0%, 0%, 0.099));
+        }
+    }
 }
