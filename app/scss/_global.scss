@@ -9,6 +9,7 @@ html {
 
 h1,h2,h3,h4,h5 {
     margin: 0;
+    color: $DarkGrayishBlue;
 }
 
 body {
@@ -16,6 +17,14 @@ body {
     padding: 0;
     font-family: $BaiFont;
     font-size: 18px;
+}
+
+p {
+    color: $GrayishBlue;
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    margin: 0;
 }
 
 a, a:visited, a:hover {
